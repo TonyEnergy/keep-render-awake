@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Curl your Render app
         run: |
-          curl -s https://ocpp-java-app.onrender.com/ws > /dev/null
+          curl -s https://ocpp-java-app.onrender.com/ping > /dev/null
